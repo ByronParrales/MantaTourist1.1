@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:textStyle="bold|italic"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comentario"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#006666"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_marginTop="15dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Correo"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:inputType="text"
+        android:hint="Comentario"
+        android:ems="10"
+        android:id="@+id/et1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnComent"
+        android:text="enviar comentario"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"/>
+
+
+
+</LinearLayout>

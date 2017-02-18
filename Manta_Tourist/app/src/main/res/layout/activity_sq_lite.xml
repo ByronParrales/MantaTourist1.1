@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvtitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQ Lite"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#006666"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Id"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etlugar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Lugar "
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etdireccion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Direccion "
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardar"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/teal"
+            android:textColor="#00FFFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="45dp" />
+
+        <Button
+            android:text="Actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnActualizar"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/teal"
+            android:textColor="#00FFFF"
+            android:layout_below="@+id/btnBuscar"
+            android:layout_alignStart="@+id/btnBuscar"
+            android:layout_marginTop="17dp" />
+
+        <Button
+            android:text="Eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEliminar"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/teal"
+            android:textColor="#00FFFF"
+            android:layout_alignBaseline="@+id/btnActualizar"
+            android:layout_alignBottom="@+id/btnActualizar"
+            android:layout_alignEnd="@+id/btnGuardar" />
+
+        <Button
+            android:text="Buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBuscar"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/teal"
+            android:textColor="#00FFFF"
+            android:layout_marginStart="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

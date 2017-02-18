@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="BIENVENIDOS"
+        android:textColor="#006666"
+        android:textStyle="bold|italic"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/aero"
+        android:id="@+id/imageView1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Aeropuertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_marginTop="32dp"
+        android:id="@+id/btn1"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"/>
+
+    <Button
+        android:text="Parque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_alignBaseline="@+id/btn1"
+        android:layout_alignBottom="@+id/btn1"
+        android:layout_alignEnd="@+id/imageView2"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/restaurante"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/btn1"
+        android:layout_alignEnd="@+id/btn1"
+        android:layout_marginTop="21dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/comentario"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignStart="@+id/btn2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/parque"
+        android:id="@+id/imageView2"
+        android:layout_marginEnd="37dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="restaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:layout_alignStart="@+id/btn1"
+        android:layout_below="@+id/imageView3" />
+
+    <Button
+        android:text="Comentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <Button
+        android:text="Danos tu mejor comentario "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="#006666"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

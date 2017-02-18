@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:textStyle="bold|italic">
+
+    <TextView
+        android:id="@+id/tvIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATE"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#006666"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Correo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <Button
+        android:id="@+id/btnEnviarReg"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="enviar registro"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/tvCuenta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Ya tienes cuenta! Accede!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#996600"
+        android:textStyle="bold|italic"/>
+
+   </LinearLayout>
